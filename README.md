@@ -50,3 +50,10 @@
 fix error:
 - Install the missing Babel plugin
 - npm install --save-dev @babel/plugin-transform-runtime
+
+13. add npm script to run our application
+ - css-loader & style-loader to process the style file and instruct webpack to use them for all css files
+ ```bash
+ yarn add -D css-loader style-loader
+ npm install --save-dev css-loader style-loader
+ ```
